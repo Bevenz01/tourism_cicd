@@ -1,0 +1,69 @@
+# Python
+__pycache__/
+*.py[cod]
+*.py[codz]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+.installed.cfg
+MANIFEST
+.env
+.envrc
+.venv
+env/
+venv/
+ENV/
+
+# MLflow runs (local tracking only)
+mlruns/
+
+# Claude Code settings
+.claude/
+
+# Jupyter
+.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+
+# Windows temp files
+~$*
+
+# Screenshot files (for notebook only, not needed in repo)
+*.png
+*.jpg
+*.jpeg
+
+# Build / dist
+build/
+dist/
+*.spec
+
+# Test / coverage
+.coverage
+.pytest_cache/
+htmlcov/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# VS Code
+tempCodeRunnerFile.py
+.ruff_cache/
+
+# Large data/model files (stored on HF instead)
+tourism_project/data/train.csv
+tourism_project/data/test.csv
+tourism_project/data/tourism.csv
+tourism_project/data/encoders.pkl
+tourism_project/model_building/best_model.pkl
+tourism_project/model_building/feature_names.pkl
+
+# Assignment support files (kept locally, not part of project repo)
+rubric.txt
+BusinessContext.txt
+
+# Exported HTML and duplicate notebooks (submission file, not needed in repo)
+*.html
+*\ (1).ipynb
+xyz.ipynb
